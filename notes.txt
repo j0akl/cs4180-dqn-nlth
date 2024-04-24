@@ -1,0 +1,18 @@
+- training dqn on 1M episodes
+- eval is done in bb/hand
+
+post training thoughts:
+
+plays about even against itself, good sign. Plays well against random bot
+
+Against human (jake), ai did very poorly. Seems to not fold very often, really only
+folds against all ins. Maybe the model thinks the negative reward of folding is never
+worth losing the positive potential of staying in the hand??
+
+Going into the recorded 100 hand game, I kinda had the strategy figured out. Will
+be interesting to see how rob does against it in his first run.
+
+Jake avg win: 21.36
+Rob avg win: 14.83
+
+AI vs random: 50 trials of 10k games
